@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-size:1em;
+	background-color:#faf1e1;
+	line-height:1;
+	margin:0;
+	padding:0;
+	font-family:franklin gothic book;
+}
+
+h1 {text-align:center;
+	padding:15px;
+	color:#9b2948;
+	margin:32px;
+	font-family:eras bold itc;
+	font-size: 50px;
+}
+
+h2 {text-align:left;
+	color:#9b2948;
+	margin:15px;
+	font-family:eras bold itc;
+	padding-top: 15px;
+}
+
+	h3 {text-align:left;
+	color:#9b2948;
+	margin:32px;
+		font-family:eras bold itc;
+}
+
+p {line-height:2;
+	text-indent: 2em;
+	margin-left:50px;
+	margin-right:50px;
+	color:#45392b;
+}
+
+dt {color:#9b2948;
+	margin-bottom: 2.5px;
+	margin-left: 75px;
+	margin-right:75px;
+	font-family:eras bold itc;
+	margin-top:30px;
+}
+
+dl {line-height: 1.5;
+	color:#45392b;
+}
+
+dd {text-indent: 2em;
+	color:#45392b;
+	margin-left:50px;
+	margin-right:50px;
+	line-height: 2;
+}
+
+em {text-align:center;
+	font-size:1em;
+	margin:80px;
+	padding:50px;
+	color:#45392b;
+}
+
+.box1 {
+	position:sticky;
+	background-color:#ffcd74;
+	padding:10px;
+	top:0px;
+}
