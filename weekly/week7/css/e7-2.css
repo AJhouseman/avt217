@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+section {
+	
+}
+
+#flexbox{
+	width:1390px;
+	height:67px;
+	background-color:#D57878;
+	display: flex;
+	justify-content:space-evenly;
+	flex-wrap: wrap;
+	margin-bottom: 82px;
+}
+	
+	.flexcolumn1 {
+	width:1390px;
+	height:31px;
+	display: flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	background-color:#B88B6A;
+	margin-top:82px;
+	}
+
+	.flexcolumn2 {
+	width:1390px;
+	height:55px;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	background-color:#743939;
+	}
+
+.flexcolumn3 {
+	width:320px;
+	height:568px;
+	background-color:#CEB2A1;
+	margin-top:128px;
+	margin-left:28px;
+	position: absolute;
+	left: 0;
+}
+
+.flexcolumn4 {
+	width:320px;
+	height:568px;
+	background-color:#CEB2A1;
+	margin-top:128px;
+	margin-left:365px;
+	position: absolute;
+	left: 0;
+}
+
+.flexcolumn5 {
+	width:320px;
+	height:568px;
+	background-color:#CEB2A1;
+	margin-top:128px;
+	margin-right:370px;
+	position: absolute;
+	right: 0;
+}
+
+.flexcolumn6 {
+	width:320px;
+	height:568px;
+	background-color:#CEB2A1;
+	margin-top:128px;
+	margin-right:28px;
+	position: absolute;
+	right: 0;
+}
