@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/valentines.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:contain;
+	  background-color:#FEDCDB;
+  }
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#container {
+margin-top:25vh;
+  }
+
+  p {font-family:Luckiest Guy;
+    text-transform:uppercase;
+	 font-size:3.5em;
+	  color:#ba2f3c;
+	  margin-top:10px;
+	  margin-bottom:15px;
+  -webkit-text-stroke: 4px #70111a;
+  }
+
+.fix-stroke {
+   paint-order: stroke fill;
+}
+
+#cursive{
+	font-family:"Courgette", cursive;
+		font-weight:400;
+	font-style:normal;
+	font-size:6em;
+}
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+	 @media only screen and (max-width: 768px) {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+ background-image:none;
+    }
+	  
+	#container {
+		margin-top:2vh
+    }
+	   
+    p {font-family:Luckiest Guy;
+		text-transform:none;
+}
+	  
+	#cursive {
+	font family: "Courgette", cursive;
+		font-weight:400;
+		font-style:normal;
+		font-size:6em;
+  	}
+	  
+    .mobile-only {
+   
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+  
+    }
+
+} /* don't forget to close the styles for mobile/
